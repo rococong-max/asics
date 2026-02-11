@@ -13,10 +13,12 @@
 <body>
     <div id="wrap">
         <div id="top_bnr_slid">
-            <ul class="slide_container">
-                <li><a href="#">신규회원가입 시, 10,000 포인트 증정</a></li>
-                <li><a href="#">아식스 코리아를 사칭한 온라인 판매 사이트 주의 안내</a></li>
-            </ul>
+            <div id="slid_viewport">
+                <ul class="slide_container">
+                    <li><a href="#">신규회원가입 시, 10,000 포인트 증정</a></li>
+                    <li><a href="#">아식스 코리아를 사칭한 온라인 판매 사이트 주의 안내</a></li>
+                </ul>
+            </div>
             <a href="#" class="close">X</a>
         </div>
         <header>
@@ -25,9 +27,8 @@
                 <ul id="gnb">
                     <li>
                         <a href="#">Men</a>
-                        <ul id="man_menu">
-                            <li><a href="#" class="gnb_depth1_active">Men</a></li>
-                            <li class="gnb_depth2">Featured
+                        <ul id="gnb_depth1">
+                            <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">신상품</a></li>
                                     <li><a href="#">베스트셀러</a></li>
@@ -37,7 +38,7 @@
                                     <li><a href="#">키즈</a></li>
                                 </ul>
                             </li>
-                            <li class="gnb_depth2">신발
+                            <li class="gnb_depth2"><a href="#">신발</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">러닝화</a></li>
                                     <li><a href="#">테니스화</a></li>
@@ -50,7 +51,7 @@
                                     <li><a href="#">스포츠스타일화</a></li>
                                 </ul>
                             </li>
-                            <li class="gnb_depth2">의류
+                            <li class="gnb_depth2"><a href="#">의류</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">자켓&점퍼&베스트</a></li>
                                     <li><a href="#">스위터&후디 티셔츠</a></li>
@@ -70,9 +71,8 @@
                     </li>
                     <li>
                         <a href="#">Women</a>
-                        <ul id="woman_menu">
-                            <li><a href="#" class="gnb_depth1_active">Women</a></li>
-                            <li class="gnb_depth2">Featured
+                        <ul id="gnb_depth1">
+                            <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3"> 
                                     <li><a href="#">신상품</a></li>
                                     <li><a href="#">베스트셀러</a></li>
@@ -82,7 +82,7 @@
                                     <li><a href="#">키즈</a></li>
                                 </ul>
                             </li>
-                            <li class="gnb_depth2">신발
+                            <li class="gnb_depth2"><a href="#">신발</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">러닝화</a></li>
                                     <li><a href="#">테니스화</a></li>
@@ -95,7 +95,7 @@
                                     <li><a href="#">스포츠스타일화</a></li>
                                 </ul>
                             </li>
-                            <li class="gnb_depth2">의류
+                            <li class="gnb_depth2"><a href="#">의류</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">자켓&점퍼&베스트</a></li>
                                     <li><a href="#">스위터&후디 티셔츠</a></li>
@@ -120,9 +120,9 @@
                 </ul>
             </nav>
             <div class="h_right">
-                <form action="#" method="post" id="h_search_box" name="h_search_box">
-                    <input type="search" placeholder="요즘 대세 트레일 러닝화">
-                    <button type="submit"><img src="./imges/search.png" alt="검색하기"></button>
+                <form action="#" method="post" id="h_search_box">
+                    <input name="search_txt" type="search" placeholder="요즘 대세 트레일 러닝화">
+                    <button type="submit" id="search_btn"><img src="./imges/search.png" alt="검색하기"></button>
                 </form>
                 <a href="#" class="sign_in_up"><span>로그인/회원가입</span></a>
                 <a href="#" class="customer_service">고객센터</a>
@@ -244,31 +244,35 @@
                     <ul class="licenses_list">
                         <li>
                             <a href="#"><img src="./imges/kcp.png" alt=""></a>
-                            <p><span>NHN KCP구매안전</span></p>
-                            <p>에크로서비스</p>
+                            <div class="licenses_txt">
+                                <p><span>NHN KCP구매안전</span></p>
+                                <p>에크로서비스</p>
+                            </div>
                         </li>
                         <li>
                             <p><img src="./imges/ico_isms.png" alt=""></p>
-                            <p><span>[인증범위]</span>온라인 서비스 운영(asics)</p>
-                            <p><span>[유효기간]</span>2025-08-21 ~ 2028-08-20</p>
+                            <div class="licenses_txt">
+                                <p><span>[인증범위]</span>온라인 서비스 운영(asics)</p>
+                                <p><span>[유효기간]</span>2025-08-21 ~ 2028-08-20</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
                 <div id="fnb">
-                    <a href="#"><span>고객센터</span></a>
-                    <a href="#"><span>공지사항</span></a>
-                    <a href="#"><span>뉴스&이벤트</span></a>
-                    <a href="#"><span>주문조회</span></a>
-                    <a href="#"><span>FAQ</span></a>
-                    <a href="#"><span>사이즈 가이드</span></a>
-                    <a href="#"><span>회사소개</span></a>
-                    <a href="#"><span>About ASICS</span></a>
-                    <a href="#"><span>Sustainability</span></a>
-                    <a href="#"><span>Carbon Footprint</span></a>
-                    <a href="#"><span>Move Her Mind</span></a>
-                    <a href="#"><span>The world Mental Health Day</span></a>
-                    <a href="#"><span>사이트맵</span></a>
-                    <a href="#"><span>매장찾기</span></a>
+                    <a href="#">고객센터</a>
+                    <a href="#">공지사항</a>
+                    <a href="#">뉴스&이벤트</a>
+                    <a href="#">주문조회</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">사이즈 가이드</a>
+                    <a href="#">회사소개</a>
+                    <a href="#">About ASICS</a>
+                    <a href="#">Sustainability</a>
+                    <a href="#">Carbon Footprint</a>
+                    <a href="#">Move Her Mind</a>
+                    <a href="#">The world Mental Health Day</a>
+                    <a href="#">사이트맵</a>
+                    <a href="#">매장찾기</a>
                 </div>
                 <div id="f_right">
                     <a href="#">이용약관</a>
