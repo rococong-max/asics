@@ -12,22 +12,20 @@
 </head>
 <body>
     <div id="wrap">
-        <div id="top_bnr_slid">
-            <div id="slid_viewport">
-                <ul class="slide_container">
-                    <li><a href="#">신규회원가입 시, 10,000 포인트 증정</a></li>
-                    <li><a href="#">아식스 코리아를 사칭한 온라인 판매 사이트 주의 안내</a></li>
-                </ul>
+            <div class="top_bnr_slide_wrap">
+                <div class="slide_container">
+                    <a href="#" class="slide">신규회원가입 시, 10,000 포인트 증정</a>
+                    <a href="#" class="slide">아식스 코리아를 사칭한 온라인 판매 사이트 주의 안내</a>
+                </div>
+                <a href="#" class="close">X</a>
             </div>
-            <a href="#" class="close">X</a>
-        </div>
         <header>
             <h1><a href="#"><img src="./imges/logo.png" alt="아식스"></a></h1>
             <nav>
                 <ul id="gnb">
                     <li>
                         <a href="#">Men</a>
-                        <ul id="gnb_depth1">
+                        <ul class="gnb_depth1">
                             <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">신상품</a></li>
@@ -71,7 +69,7 @@
                     </li>
                     <li>
                         <a href="#">Women</a>
-                        <ul id="gnb_depth1">
+                        <ul class="gnb_depth1">
                             <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3"> 
                                     <li><a href="#">신상품</a></li>
@@ -119,12 +117,12 @@
                     <li><a href="#">#RUN</a></li>
                 </ul>
             </nav>
-            <div class="h_right">
+            <div class="lnb_right">
                 <form action="#" method="post" id="h_search_box">
                     <input name="search_txt" type="search" placeholder="요즘 대세 트레일 러닝화">
                     <button type="submit" id="search_btn"><img src="./imges/search.png" alt="검색하기"></button>
                 </form>
-                <a href="#" class="sign_in_up"><span>로그인/회원가입</span></a>
+                <a href="#" class="sign_in_up">로그인/회원가입</a>
                 <a href="#" class="customer_service">고객센터</a>
                 <a href="#" class="cart"><img src="./imges/shopping_cart.png" alt="장바구니"></a>
             </div>
@@ -134,109 +132,64 @@
                 <a class="chat_btn"><img src="./imges/chat.png" alt="상담하기"></a>
                 <a class="up_btn"><img src="./imges/up_btn.png" alt="맨위로 올라가기"></a>
             </div>
-            <div class="gel_kayano_wrap">
-                    <h1 class="title">GEL-KAYANO<sup>TM</sup>32</h1>
-                    <a href="#" class="product_ad"><img src="./imges/ad_gel.jpg" alt=""></a>
-                    <div class="product_box">
-                        <a href="#" class="product">
-                            <p><img class="p_img" src="./imges/gel32w.png" alt=""></p>
-                            <h2 class="p_name">젤 카야노 32 우먼(D)</h2>
-                            <p class="p_price"><em>199,000원</em></p>
-                            <p>new</p>
-                        </a>
-                        <a href="#" class="product">
-                            <p><img class="p_img" src="./imges/gel32.png" alt=""></p>
-                            <h2 class="p_name">젤 카야노 32</h2>
-                            <p class="p_price"><em>199,000원</em></p>
-                            <p>new</p>
-                        </a>
-                    </div>
-            </div>
-            <div class="gel_nimbus_wrap">
-                    <video src="#" autoplay muted loop></video>
-                    <div class="txt_box">
-                        <h1>GEL-NIMBUS<sup>TM</sup>28</h1>
-                        <p>구름처럼 부드러운 쿠셔닝으로 완성된 젤 님버스 28</p>
-                    </div>
-                    <a class="buy_btn">구매하기</a>
-            </div>
-            <div class="sports_shop_wrap">
-                    <h1 class="title">SHOP BY SPORTS</h1>
-                    <div class="shop_slide">
-                        <ul class="slide_container">
-                            <li>
-                                <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
-                                <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
-                                <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
-                                <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
-                                <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
-                            </li>
-                        </ul>
-                        <a class="previous_btn"><img src="./imges/previous_btn.png" alt="이전보기"></a>
-                        <a class="next_btn"><img src="./imges/next_btn.png" alt="다음보기"></a>
-                    </div>
-            </div>
-            <a class="sports_style_hero_bnr"><img src="./imges/ad_bnr.jpg" alt="아식스 스포츠스타일 바로가기"></a>
             <div class="gel_nyc_wrap">
-                    <a><img src="./imges/nyc.jpg" alt=""></a>
+                    <a href="#"><img src="./imges/nyc.jpg" alt=""></a>
                     <div class="txt_box">
                         <h1 class="title">GEL-NYC</h1>
                         <p>2000년대 헤리티지 런닝화를 재해석한 어반 라이프 스타일</p>
-                        <a class="buy_btn">구매하기</a>
+                        <a href="#" class="buy_btn">구매하기</a>
                     </div>
             </div>
-            <div class="gt_2160_wrap">
-                    <h1>NEW ARRIVALS</h1>
-                    <a class="product_ad"><img src="./imges/ad_gt.jpg" alt=""></a>
-                    <ul class="product_box">
-                        <li>
-                            <a class="product">
-                                <p><img class="p_img" src="./imges/gt1.png" alt=""></p>
-                                <h1>GT 2160</h1>
-                                <p><em>149,000원</em></p>
-                                <p>NEW</p>
-                            </a>
+            <div class="sports_shop_wrap">
+                <h1 class="title">SHOP BY SPORTS</h1>
+                <div class="shop_slide_wrap">
+                    <ul class="slide_container">
+                        <li class="slide">
+                            <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
-                        <li>
-                            <a class="product">
-                                <p><img class="p_img" src="./imges/gt2.png" alt=""></p>
-                                <h1>GT 2160</h1>
-                                <p><em>149,000원</em></p>
-                            </a>
+                        <li class="slide">
+                            <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
                         </li>
-                        <li>
-                            <a class="product">
-                                <p><img class="p_img" src="./imges/gt3.png" alt=""></p>
-                                <h1>GT 2160</h1>
-                                <p><em>149,000원</em></p>
-                            </a>
+                        <li class="slide">
+                            <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
-                        <li>
-                            <a class="product">
-                                <p><img class="p_img" src="./imges/gt4.png" alt=""></p>
-                                <h1>GT 2160</h1>
-                                <p><em>149,000원</em></p>
-                            </a>
+                        <li class="slide">
+                            <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
+                        </li>
+                        <li class="slide">
+                            <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
                     </ul>
+                    <a class="previous_btn"><img src="./imges/previous_btn.png" alt="이전보기"></a>
+                    <a class="next_btn"><img src="./imges/next_btn.png" alt="다음보기"></a>
+                </div>
             </div>
-            <div class="ad_hero_bnr_wrap">
-                    <div class="bnr_slide">
-                        <ul class="slide_container">
-                            <li><a href="#"><img src="./imges/bnr_slide.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="./imges/bnr_slide2.jpg" alt=""></a></li>
-                        </ul>
-                    </div>
-                    <div class="txt_box">
-                        <h1 class="title">COURT FF<sup>TM</sup>3 SERIES</h1>
-                        <p>코트 위 순간을 빛내는 스포츠</p>
-                    </div>
-                    <a class="buy_btn">구매하기</a>
+            <div class="hero_bnr_slide_wrap">
+                <ul class="slide_container">
+                    <li class="slide">
+                        <a href="#">
+                            <img src="./imges/hero_bnr_slide.jpg">
+                            <span>More <em>balance</em> to<br>
+                            move body and mind</span>
+                        </a>
+                        <h1>COURT FF<sup>TM</sup>3 SERISE</h1>
+                        <p>코트 위 순간을 빛내는 퍼포먼스</p>
+                        <a href="#" class="buy_btn">구매하기</a>
+                    </li>
+                    <li class="slide">
+                        <a href="#"><img src="./imges/hero_bnr_slide2.jpg"></a>
+                        <h1>GEL-RESOLUTION<sup>TM</sup>3 X</h1>
+                        <p>더욱 편안하고 안정적인 플레이 젤 레졸루션 X</p>
+                        <a href="#" class="buy_btn">구매하기</a>
+                    </li>
+                </ul>
+                <a href="#"><img src="./imges/previous_btn.png" alt="이전보기"></a>
+                <a href="#"><img src="./imges/next_btn.png" alt="다음보기"></a>
             </div>
         </main>
         <footer>
                 <div id="f_left">
-                    <p class="f_logo"><a href="#gnb"><img src="./imges/logo.png" alt=""></a></p>
+                    <p class="f_logo"><a href="./index.html"><img src="./imges/logo.png" alt=""></a></p>
                     <address class="tel">고객상담실 080-929-3535 | 080-930-3535</address>
                     <p>운영시간 : 월-금 AM 10:00-PM 17:00 / 점심시간 PM 12:00-13:00<br>
                         * 공유일은 고객상담실 휴무입니다.
@@ -258,22 +211,22 @@
                         </li>
                     </ul>
                 </div>
-                <div id="fnb">
-                    <a href="#">고객센터</a>
-                    <a href="#">공지사항</a>
-                    <a href="#">뉴스&이벤트</a>
-                    <a href="#">주문조회</a>
-                    <a href="#">FAQ</a>
-                    <a href="#">사이즈 가이드</a>
-                    <a href="#">회사소개</a>
-                    <a href="#">About ASICS</a>
-                    <a href="#">Sustainability</a>
-                    <a href="#">Carbon Footprint</a>
-                    <a href="#">Move Her Mind</a>
-                    <a href="#">The world Mental Health Day</a>
-                    <a href="#">사이트맵</a>
-                    <a href="#">매장찾기</a>
-                </div>
+                <ul id="fnb">
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">뉴스&이벤트</a></li>
+                    <li><a href="#">주문조회</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">사이즈 가이드</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">About ASICS</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Carbon Footprint</a></li>
+                    <li><a href="#">Move Her Mind</a></li>
+                    <li><a href="#">The world Mental Health Day</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">매장찾기</a></li>
+                </ul>
                 <div id="f_right">
                     <a href="#">이용약관</a>
                     <a href="#">쿠키규정</a>
