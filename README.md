@@ -23,7 +23,10 @@
 ### 2026/02/12
 * main 수정
     * .hero_bnr_slide_wrap 완료
-    * 
+    * top_bnr 수정
+    * 슬라이드 배너들의 하단 페이지 바 추가
+    * .marathon_wrap 추가
+    * .Sportstyle_hero_bnr 수정
 ## 피드백 내용 정리
 ### 2026/02/10 (1차)
 * 띠배너
