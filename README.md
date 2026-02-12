@@ -18,7 +18,11 @@
 * footer 부분 수정 (div, f_logo)
 * main 전체적인 순서 및 레이아웃 수정
     * .gel_nyc_wrap 완료
-    * .sports_shop_wrap
+    * .sports_shop_wrap 완료
+    * .hero_bnr_slide_wrap 이미지 변경 및 txt_box 수정
+### 2026/02/12
+* main 수정
+    * .hero_bnr_slide_wrap 완료
     * 
 ## 피드백 내용 정리
 ### 2026/02/10 (1차)
