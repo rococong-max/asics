@@ -30,7 +30,7 @@
 ### 2026/02/13
 * marathon_wrap 이미지 추가
 * **3차 피드백 후 태그 수정**
-* <a href="#"> 수정 (그만 빼먹어 제발)
+* `<a href="#">` 수정 (그만 빼먹어 제발)
 * footer sns_list 순서 변경
 * input id 추가
 * page_bar 수정
