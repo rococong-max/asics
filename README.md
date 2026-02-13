@@ -40,7 +40,7 @@
 * sportstyle_bnr - div="bnr_txt_box" 그룹 묶기
 * bg img 태그 삭제 및 각주 표시
 * slide에 개별 이름 부여 (slide숫자)
-* css 사용자 작성 완료
+* css 선택자 작성 완료
 ## 피드백 내용 정리
 ### 2026/02/10 (1차)
 * 띠배너
