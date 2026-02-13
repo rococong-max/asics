@@ -49,7 +49,7 @@ body {}
 #wrap main .hero_bnr_slide_wrap {}
 #wrap main .hero_bnr_slide_wrap .slide_container {}
 #wrap main .hero_bnr_slide_wrap .slide_container .slide {}
-#wrap main .hero_bnr_slide_wrap .slide_container .slide a {}
+#wrap main .hero_bnr_slide_wrap .slide_container .slide a {} /* bg */
 #wrap main .hero_bnr_slide_wrap .slide_container .slide a h1 {}
 #wrap main .hero_bnr_slide_wrap .slide_container .slide a h1 em {}
 #wrap main .hero_bnr_slide_wrap .slide_container .slide .bnr_txt_box {}
@@ -114,7 +114,7 @@ body {}
 #wrap main .marathon_wrap .tab_menu li .race_slide_wrap .next_btn {}
 #wrap main .marathon_wrap .tab_menu li .race_slide_wrap .next_btn img {}
 #wrap main .marathon_wrap .tab_menu li .more {}
-#wrap main .sportstyle_hero_bnr {}
+#wrap main .sportstyle_hero_bnr {} /* bg */
 #wrap main .sportstyle_hero_bnr .bnr_txt_box {}
 #wrap main .sportstyle_hero_bnr .bnr_txt_box .title {}
 #wrap main .sportstyle_hero_bnr .bnr_txt_box p {}
