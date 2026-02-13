@@ -73,10 +73,10 @@
 * **<a href="#">**
 * gnb안 lnb 영역 `ul-li(메뉴) / div (광고 이미지)` 으로 나누기
 * input에 id 추가하기
-* hero_bnr_slide img 안 <p> -> <h>로 수정
+* hero_bnr_slide img 안 p -> h 로 수정
 * page_bar의 경우 바탕이 되는 전체 바 부분 1, 움직이는 바 1 총 2개로 구성된 것임
 * tab_menu 안 더보기 버튼은 ul 부모 div와 형제로 두기
-* tab_menu - ul - li - <p>new</p>옆에 추가로 멤버스 전용도 오는 것을 고려해서 안에 <span>태그 추가 및 이름 부여하기
+* tab_menu - ul - li - `<p>new</p>`옆에 추가로 멤버스 전용도 오는 것을 고려해서 안에 `<span>`태그 추가 및 이름 부여하기
 * sportstyle_bnr txt 묶어주기
 * footer 영역에 sns_list는 제일 하단에 가도록 (애매하게 중간에 껴있지 않도록)
 * bg_img의 경우에는 css로 작업하면 되므로 태그 불필요
