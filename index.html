@@ -22,12 +22,12 @@
                 </div>
             </div>
         <header>
-            <h1><a href="#"><img src="./imges/logo.png" alt="아식스"></a></h1>
+            <h1 id="logo"><a href="#"><img src="./imges/logo.png" alt="아식스"></a></h1>
             <nav>
                 <ul id="gnb">
                     <li>
                         <a href="#">Men</a>
-                        <ul class="gnb_depth1">
+                        <ul>
                             <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3">
                                     <li><a href="#">신상품</a></li>
@@ -62,16 +62,16 @@
                                     <li><a href="#">쇼츠</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#" class="gel_nimbus_ad">
-                                    <img src="./imges/gnb_banner_m.jpg" alt=""><em>GEL-NIMBUS<sup>TM</sup>28</em>
-                                </a>
-                            </li>
                         </ul>
+                        <div class="ad_box">
+                            <a href="#" class="gel_nimbus_ad">
+                                <img src="./imges/gnb_banner_m.jpg" alt=""><em>GEL-NIMBUS<sup>TM</sup>28</em>
+                            </a>
+                        </div>
                     </li>
                     <li>
                         <a href="#">Women</a>
-                        <ul class="gnb_depth1">
+                        <ul>
                             <li class="gnb_depth2"><a href="#">Featured</a>
                                 <ul class="gnb_depth3"> 
                                     <li><a href="#">신상품</a></li>
@@ -107,21 +107,21 @@
                                     <li><a href="#">쇼츠&스커트</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#" class="gel_nimbus_ad">
-                                    <img src="./imges/gnb_banner_w.jpg" alt=""><em>GEL-NIMBUS<sup>TM</sup>28</em>
-                                </a>
-                            </li>
                         </ul>
+                        <div class="ad_box">
+                            <a href="#" class="gel_nimbus_ad">
+                                <img src="./imges/gnb_banner_w.jpg" alt=""><em>GEL-NIMBUS<sup>TM</sup>28</em>
+                            </a>
+                        </div>
                     </li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Sportstyle</a></li>
-                    <li><a href="#">#RUN</a></li>
+                    <li><a href="#" class="gnb_depth1">Sports</a></li>
+                    <li><a href="#" class="gnb_depth1">Sportstyle</a></li>
+                    <li><a href="#" class="gnb_depth1">#RUN</a></li>
                 </ul>
             </nav>
             <div class="lnb_right">
                 <form action="#" method="post" id="h_search_box">
-                    <input name="search_txt" type="search" placeholder="요즘 대세 트레일 러닝화">
+                    <input name="search_txt" id="search_txt" type="search" placeholder="요즘 대세 트레일 러닝화">
                     <button type="submit" id="search_btn"><img src="./imges/search.png" alt="검색하기"></button>
                 </form>
                 <a href="#" class="sign_in_up">로그인/회원가입</a>
@@ -144,11 +144,11 @@
             </div>
             <div class="hero_bnr_slide_wrap">
                 <ul class="slide_container">
-                    <li class="slide">
+                    <li class="slide slide1">
                         <a href="#">
-                            <p class="bg_img"><img src="./imges/hero_bnr_slide.jpg" alt=""><!-- bg img --></p>
-                            <p>More <em>balance</em> to<br>
-                            move body and mind</p>
+                            <!-- bg img -->
+                            <h1>More <em>balance</em> to<br>
+                            move body and mind</h1>
                         </a>
                         <div class="bnr_txt_box">
                             <h1>COURT FF<sup>TM</sup>3 SERISE</h1>
@@ -156,12 +156,12 @@
                             <a href="#" class="buy_btn">구매하기</a>
                         </div>
                     </li>
-                    <li class="slide">
+                    <li class="slide slide2">
                         <a href="#">
-                            <p class="bg_img"><img src="./imges/hero_bnr_slide2.jpg" alt=""><!-- bg img --></p>
-                            <p>GEL-RESOLUTION<sup>TM</sup>X<br>
+                            <!-- bg img -->
+                            <h1>GEL-RESOLUTION<sup>TM</sup>X<br>
                             More <em>stability</em><br>
-                            to move body and mind</p>
+                            to move body and mind</h1>
                         </a>
                         <div class="bnr_txt_box">
                             <h1>GEL-RESOLUTION<sup>TM</sup>3 X</h1>
@@ -170,8 +170,8 @@
                         </div>
                     </li>   
                 </ul>
-                <a href="#"><img src="./imges/prev_btn.png" alt="이전보기"></a>
-                <a href="#"><img src="./imges/next_btn.png" alt="다음보기"></a>
+                <a href="#" class="prev_btn"><img src="./imges/prev_btn.png" alt="이전보기"></a>
+                <a href="#" class="next_btn"><img src="./imges/next_btn.png" alt="다음보기"></a>
                 <div class="page_bar">
                     <a href="#" class="active"></a>
                     <a href="#"></a>
@@ -181,240 +181,240 @@
                 <h1 class="title">SHOP BY SPORTS</h1>
                 <div class="shop_slide_wrap">
                     <ul class="slide_container">
-                        <li class="slide">
+                        <li class="slide slide1">
                             <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
-                        <li class="slide">
+                        <li class="slide slide2">
                             <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
                         </li>
-                        <li class="slide">
+                        <li class="slide slide3">
                             <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
-                        <li class="slide">
+                        <li class="slide slide4">
                             <a href="#"><img src="./imges/shop_slide2.jpg" alt=""><span>Tennis</span></a>
                         </li>
-                        <li class="slide">
+                        <li class="slide slide5">
                             <a href="#"><img src="./imges/shop_slide1.jpg" alt=""><span>Indoor</span></a>
                         </li>
                     </ul>
-                    <a class="prev_btn"><img src="./imges/prev_btn.png" alt="이전보기"></a>
-                    <a class="next_btn"><img src="./imges/next_btn.png" alt="다음보기"></a>
+                    <a href="#" class="prev_btn"><img src="./imges/prev_btn.png" alt="이전보기"></a>
+                    <a href="#" class="next_btn"><img src="./imges/next_btn.png" alt="다음보기"></a>
                     <div class="page_bar">
                         <a href="#" class="active"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
                         <a href="#"></a>
                     </div>
                 </div>
             </div>
             <div class="marathon_wrap">
-                <h1>Marathon Edition</h1>
+                <h1 class="title">Marathon Edition</h1>
                 <ul class="tab_menu">
                     <li>
                         <a href="#" class="race_tab active">RACE DAY</a>
                         <div class="race_slide_wrap"><!-- 뷰포트 -->
                             <ul class="slide_container"><!-- 전체 슬라이드 묶음 -->
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide1">
+                                    <a href="#" class="product_img"><img src="./imges/singlet_m.jpg" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">맨즈 메타스피드 싱글렛</h2>
                                         <p class="product_price">129,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide2">
+                                    <a href="#" class="product_img"><img src="./imges/metaspeed_tokyo.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">메타스피드 스카이 도쿄</h2>
                                         <p class="product_price">329,000원</p>
-                                        <p>NEW</p>
-                                        <p>멤버스 전용</p>
+                                        <div class="product_tag">
+                                            <p><span class="new">NEW</span></p>
+                                            <p><span class="member">멤버스 전용</span></p>
+                                        </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide3">
+                                    <a href="#" class="product_img"><img src="./imges/singlet_w.jpg" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">우먼즈 메타스피드 싱글렛</h2>
                                         <p class="product_price">129,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li  class="slide slide4">
+                                    <a href="#" class="product_img"><img src="./imges/singlet_m.jpg" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">맨즈 메타스피드 싱글렛</h2>
                                         <p class="product_price">129,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide5">
+                                    <a href="#" class="product_img"><img src="./imges/metaspeed_tokyo.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">메타스피드 스카이 도쿄</h2>
                                         <p class="product_price">329,000원</p>
-                                        <p>NEW</p>
-                                        <p>멤버스 전용</p>
+                                        <p><span class="new">NEW</span></p>
+                                        <p><span class="member">멤버스 전용</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide6">
+                                    <a href="#" class="product_img"><img src="/imges/singlet_w.jpg" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">우먼즈 메타스피드 싱글렛</h2>
                                         <p class="product_price">129,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide7">
+                                    <a href="#" class="product_img"><img src="./imges/singlet_m.jpg" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">맨즈 메타스피드 싱글렛</h2>
                                         <p class="product_price">129,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
                             </ul>
                             <a href="#" class="prev_btn"><img src="./imges/prev_btn.png" alt="이전보기"></a>
                             <a href="#" class="next_btn"><img src="./imges/next_btn.png" alt="이전보기"></a>
-                            <a href="#" class="more">더보기</a>
                         </div>
+                        <a href="#" class="more">더보기</a>
                     </li>
                     <li>
                     <a href="#" class="training_tab">TRAINING DAY</a>
                         <div class="training_slide_wrap">
                             <ul class="slide_container">
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide1">
+                                    <a href="#" class="product_img"><img src="./imges/gel_kayano.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">젤 카야노 32</h2>
                                         <p class="product_price">199,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide2">
+                                    <a href="#" class="product_img"><img src="./imges/sonic_w.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">소닉블라스트 우먼</h2>
                                         <p class="product_price">229,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide3">
+                                    <a href="#" class="product_img"><img src="./imges/gel_kayano.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">젤 카야노 32</h2>
                                         <p class="product_price">199,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide4">
+                                    <a href="#" class="product_img"><img src="./imges/sonic_w.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">소닉블라스트 우먼</h2>
                                         <p class="product_price">229,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide5">
+                                    <a href="#" class="product_img"><img src="./imges/gel_kayano.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">젤 카야노 32</h2>
                                         <p class="product_price">199,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="product_img"><img src="" alt=""></a>
+                                <li class="slide slide6">
+                                    <a href="#" class="product_img"><img src="./imges/sonic_w.png" alt=""></a>
                                     <div class="txt_box">
                                         <h2 class="product_name">소닉블라스트 우먼</h2>
                                         <p class="product_price">229,000원</p>
-                                        <p>NEW</p>
+                                        <p><span class="new">NEW</span></p>
                                     </div>
                                 </li>
                             </ul>
                             <a href="#" class="prev_btn"><img src="./imges/prev_btn.png" alt="이전보기"></a>
                             <a href="#" class="next_btn"><img src="./imges/next_btn.png" alt="이전보기"></a>
-                            <a href="#" class="more">더보기</a>
+                        </div>
+                        <a href="#" class="more">더보기</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sportstyle_hero_bnr">
+                <!-- bg img -->
+                <div class="bnr_txt_box">
+                    <h1 class="title">ASICS SPORTSTYLE</h1>
+                    <p>Inspired by sport, defined by style</p>
+                    <a href="#">바로가기</a>
+                </div>
+            </div>
+            <div class="gel_nyc_wrap">
+                <a href="#"><img src="./imges/nyc.jpg" alt=""></a>
+                <div class="txt_box">
+                    <h1 class="title">GEL-NYC</h1>
+                    <p>2000년대 헤리티지 런닝화를 재해석한 어반 라이프 스타일</p>
+                    <a href="#" class="buy_btn">구매하기</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="f_left">
+                <p class="f_logo"><a href="./index.html"><img src="./imges/logo.png" alt=""></a></p>
+                <address class="tel">고객상담실 080-929-3535 | 080-930-3535</address>
+                <p>운영시간 : 월-금 AM 10:00-PM 17:00 / 점심시간 PM 12:00-13:00<br>
+                    * 공유일은 고객상담실 휴무입니다.
+                </p>
+                <ul class="licenses_list">
+                    <li>
+                        <a href="#"><img src="./imges/kcp.png" alt=""></a>
+                        <div class="licenses_txt">
+                            <p><span>NHN KCP구매안전</span></p>
+                            <p>에크로서비스</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p><img src="./imges/ico_isms.png" alt=""></p>
+                        <div class="licenses_txt">
+                            <p><span>[인증범위]</span>온라인 서비스 운영(asics)</p>
+                            <p><span>[유효기간]</span>2025-08-21 ~ 2028-08-20</p>
                         </div>
                     </li>
                 </ul>
             </div>
-            <div class="Sportstyle_hero_bnr">
-                <p class="bg_img"><img src="./imges/sportstyle_bnr.jpg" alt=""></p>
-                <h1>ASICS SPORTSTYLE</h1>
-                <P>Inspired by sport, defined by style</P>
-                <a href="#">바로가기</a>
-            </div>
-            <div class="gel_nyc_wrap">
-                    <a href="#"><img src="./imges/nyc.jpg" alt=""></a>
-                    <div class="txt_box">
-                        <h1 class="title">GEL-NYC</h1>
-                        <p>2000년대 헤리티지 런닝화를 재해석한 어반 라이프 스타일</p>
-                        <a href="#" class="buy_btn">구매하기</a>
-                    </div>
-            </div>
-        </main>
-        <footer>
-                <div id="f_left">
-                    <p class="f_logo"><a href="./index.html"><img src="./imges/logo.png" alt=""></a></p>
-                    <address class="tel">고객상담실 080-929-3535 | 080-930-3535</address>
-                    <p>운영시간 : 월-금 AM 10:00-PM 17:00 / 점심시간 PM 12:00-13:00<br>
-                        * 공유일은 고객상담실 휴무입니다.
-                    </p>
-                    <ul class="licenses_list">
-                        <li>
-                            <a href="#"><img src="./imges/kcp.png" alt=""></a>
-                            <div class="licenses_txt">
-                                <p><span>NHN KCP구매안전</span></p>
-                                <p>에크로서비스</p>
-                            </div>
-                        </li>
-                        <li>
-                            <p><img src="./imges/ico_isms.png" alt=""></p>
-                            <div class="licenses_txt">
-                                <p><span>[인증범위]</span>온라인 서비스 운영(asics)</p>
-                                <p><span>[유효기간]</span>2025-08-21 ~ 2028-08-20</p>
-                            </div>
-                        </li>
-                    </ul>
+            <ul id="fnb">
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">뉴스&이벤트</a></li>
+                <li><a href="#">주문조회</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">사이즈 가이드</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">About ASICS</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Carbon Footprint</a></li>
+                <li><a href="#">Move Her Mind</a></li>
+                <li><a href="#">The world Mental Health Day</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">매장찾기</a></li>
+            </ul>
+            <div id="f_right">
+                <a href="#">이용약관</a>
+                <a href="#">쿠키규정</a>
+                <a href="#">개인정보처리방침</a>
+                <p>(주)아식스코리아 / 대표 : 김원무</p>
+                <address class="url">
+                    주소 : 서울특별시 중구 을지로5길 16 (삼화타워) 14F<br>
+                    대표전화 : 02-3663-8335 / 고객상담실 : 080-930-3535
+                </address>
+                <p>사업자등록번호 : 109-86-10809</p>
+                <p>통신판매신고번호 : 2018-서울중구-7040</p>
+                <address class="mail">E-mail : customercare-kr@asics.com</address>
+                <a href="#" class="business_info">사업자정보확인</a>
+                <p>&copy; 2024 ASICS Korea</p>
+                <div class="sns_list">
+                    <a href="#"><img src="./imges/instar.png" alt="인스타그램"></a>
+                    <a href="#"><img src="./imges/facebook.png" alt="페이스북"></a>
+                    <a href="#"><img src="./imges/kakao.png" alt="카카오톡"></a>
                 </div>
-                <ul id="fnb">
-                    <li><a href="#">고객센터</a></li>
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">뉴스&이벤트</a></li>
-                    <li><a href="#">주문조회</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">사이즈 가이드</a></li>
-                    <li><a href="#">회사소개</a></li>
-                    <li><a href="#">About ASICS</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Carbon Footprint</a></li>
-                    <li><a href="#">Move Her Mind</a></li>
-                    <li><a href="#">The world Mental Health Day</a></li>
-                    <li><a href="#">사이트맵</a></li>
-                    <li><a href="#">매장찾기</a></li>
-                </ul>
-                <div id="f_right">
-                    <a href="#">이용약관</a>
-                    <a href="#">쿠키규정</a>
-                    <a href="#">개인정보처리방침</a>
-                    <p>(주)아식스코리아 / 대표 : 김원무</p>
-                    <address class="url">
-                        주소 : 서울특별시 중구 을지로5길 16 (삼화타워) 14F<br>
-                        대표전화 : 02-3663-8335 / 고객상담실 : 080-930-3535
-                    </address>
-                    <p>사업자등록번호 : 109-86-10809</p>
-                    <p>통신판매신고번호 : 2018-서울중구-7040</p>
-                    <address class="mail">E-mail : customercare-kr@asics.com</address>
-                    <a href="#">사업자정보확인</a>
-                    <div class="sns_list">
-                        <a href="#"><img src="./imges/instar.png" alt="인스타그램"></a>
-                        <a href="#"><img src="./imges/facebook.png" alt="페이스북"></a>
-                        <a href="#"><img src="./imges/kakao.png" alt="카카오톡"></a>
-                    </div>
-                    <p>&copy; 2024 ASICS Korea</p>
-                </div>
+            </div>
         </footer>
     </div>
 </body>

@@ -27,6 +27,20 @@
     * 슬라이드 배너들의 하단 페이지 바 추가
     * .marathon_wrap 추가
     * .Sportstyle_hero_bnr 수정
+### 2026/02/13
+* marathon_wrap 이미지 추가
+* **3차 피드백 후 태그 수정**
+* <a href="#"> 수정 (그만 빼먹어 제발)
+* footer sns_list 순서 변경
+* input id 추가
+* page_bar 수정
+* tab_menu 더보기 위치 수정
+* gnb - ... - div class="ad_box" 수정
+* tab_menu - ... - span class="new" "member" 추가
+* sportstyle_bnr - div="bnr_txt_box" 그룹 묶기
+* bg img 태그 삭제 및 각주 표시
+* slide에 개별 이름 부여 (slide숫자)
+* css 사용자 작성 완료
 ## 피드백 내용 정리
 ### 2026/02/10 (1차)
 * 띠배너
@@ -55,9 +69,20 @@
 * fnb -> ul-li로 묶고 안에 a또는 div - a 구조 / spand보다는 em이지만 굳이 묶을 필요는 없음
 * footer로고의 경우 페이지가 새로고침되는 것이므로 #gnb가 아니라 ./index
 * f_left에서 하단 div안 방향 재확인 하고 수정 (div추가)
-## 자주 실수하는 부분
-* 속성 값 빼먹지 말기!!제발
-    * `<a href="#">` !!!
+### 2026/02/13(3차)
+* **<a href="#">**
+* gnb안 lnb 영역 `ul-li(메뉴) / div (광고 이미지)` 으로 나누기
+* input에 id 추가하기
+* hero_bnr_slide img 안 <p> -> <h>로 수정
+* page_bar의 경우 바탕이 되는 전체 바 부분 1, 움직이는 바 1 총 2개로 구성된 것임
+* tab_menu 안 더보기 버튼은 ul 부모 div와 형제로 두기
+* tab_menu - ul - li - <p>new</p>옆에 추가로 멤버스 전용도 오는 것을 고려해서 안에 <span>태그 추가 및 이름 부여하기
+* sportstyle_bnr txt 묶어주기
+* footer 영역에 sns_list는 제일 하단에 가도록 (애매하게 중간에 껴있지 않도록)
+* bg_img의 경우에는 css로 작업하면 되므로 태그 불필요
+## 자주 실수하는 부분 / 헷갈리는 부분
+* 속성 값 빼먹지 말기!!제발.
+    * **`<a href="#">`**
     * `<form action="" method="">`
     * `<input type="" name="">`
     * `<button type="" id="">`
