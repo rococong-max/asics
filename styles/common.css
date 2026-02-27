@@ -1,0 +1,47 @@
+/* common.css 공통 디자인 */
+body {}
+#wrap {}
+/* ---------------------------- top bnr */
+#wrap .top_bnr_wrap {}
+#wrap .top_bnr_wrap .slide_wrap {}
+#wrap .top_bnr_wrap .slide_wrap .slide_container {}
+#wrap .top_bnr_wrap .slide_wrap .slide_container .slide {}
+#wrap .top_bnr_wrap .slide_wrap .close {}
+/* --------------------------- header > logo */
+#wrap header {}
+#wrap header #logo {}
+#wrap header #logo a {}
+#wrap header #logo a img {}
+/* --------------------------- header > nav */
+/* --------------------------- header > nav > gnb */
+#wrap header nav {}
+#wrap header nav #gnb {}
+#wrap header nav #gnb li {}
+#wrap header nav #gnb li > a {}
+#wrap header nav #gnb li .menu_all {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 li {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 li > a {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 li {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 li a {}
+#wrap header nav #gnb li .menu_all .gnb_depth2 .gnb_depth3 {}/* gnb-sports */
+#wrap header nav #gnb li .menu_all .gnb_depth2 .gnb_depth3 a {}
+/* --------------------------- header > nav > ad_box */
+#wrap header nav #gnb li .menu_all .ad_box {}
+#wrap header nav #gnb li .menu_all .ad_box a {}
+#wrap header nav #gnb li .menu_all .ad_box a img {}
+#wrap header nav #gnb li .menu_all .ad_box a em {}
+#wrap header nav #gnb li .menu_all .ad_box a em sup {}
+/* --------------------------- header > .lnb_right */
+/* -----------------------------검색 폼 */
+#wrap header .lnb_right {}
+#wrap header .lnb_right #h_search_box {}
+#wrap header .lnb_right #h_search_box #search_txt {}
+#wrap header .lnb_right #h_search_box #search_btn {}
+#wrap header .lnb_right #h_search_box #search_btn img {}
+/* -----------------------------회원 */
+#wrap header .lnb_right .sign_in_up {}
+#wrap header .lnb_right .customer_service {}
+#wrap header .lnb_right .cart {}
+#wrap header .lnb_right .cart img {}
