@@ -2,10 +2,18 @@
 body {}
 #wrap {}
 /* ---------------------------- top bnr */
-#wrap .top_bnr_wrap {}
-#wrap .top_bnr_wrap .slide_wrap {}
-#wrap .top_bnr_wrap .slide_wrap .slide_container {}
-#wrap .top_bnr_wrap .slide_wrap .slide_container .slide {}
+#wrap .top_bnr_wrap {
+    background-color: aqua;
+}
+#wrap .top_bnr_wrap .slide_wrap {width: 1140px;}
+#wrap .top_bnr_wrap .slide_wrap .slide_container {
+    display: flex; flex-flow: row nowrap;
+}
+#wrap .top_bnr_wrap .slide_wrap .slide_container .slide {
+    height: 52px; display: block; 
+}
+#wrap .top_bnr_wrap .slide_wrap .slide_container .slide:nth-child(1) {}
+#wrap .top_bnr_wrap .slide_wrap .slide_container .slide:nth-child(2) {}
 #wrap .top_bnr_wrap .slide_wrap .close {}
 /* --------------------------- header > logo */
 #wrap header {}

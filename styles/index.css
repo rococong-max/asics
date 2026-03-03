@@ -129,6 +129,7 @@
 #wrap main .sportstyle_hero_bnr .bnr_txt_box .title {}
 #wrap main .sportstyle_hero_bnr .bnr_txt_box p {}
 #wrap main .sportstyle_hero_bnr .bnr_txt_box a {}
+/* ------------------------------------------ gel_nyc_wrap */
 #wrap main .gel_nyc_wrap {}
 #wrap main .gel_nyc_wrap a {}
 #wrap main .gel_nyc_wrap a img {}
@@ -136,6 +137,7 @@
 #wrap main .gel_nyc_wrap .txt_box .title {}
 #wrap main .gel_nyc_wrap .txt_box p {}
 #wrap main .gel_nyc_wrap .txt_box .buy_btn {}
+/* ------------------------------------------ footer */
 #wrap footer {}
 #wrap footer #f_left {}
 #wrap footer #f_left .f_logo {}
