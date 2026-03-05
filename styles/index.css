@@ -2,7 +2,7 @@
 /* -------------------------------- main */
 #wrap main {}
 /* -------------------- fab */
-#wrap main .fab {}
+#wrap main .fab {display: none;}
 #wrap main .fab .chat_btn {}
 #wrap main .fab .chat_btn img {}
 #wrap main .fab .up_btn {}

@@ -26,11 +26,11 @@ body {}
     position: absolute; top:19px; right: 50px;
 }
 #wrap header {
-    background-color: lightgreen;
     display: flex; flex-flow: row nowrap;
     align-items: center; justify-content: space-between;
     padding: 0 50px;
     position: relative;
+    background-color: yellow;
 }
 /* --------------------------- header > nav */
 /* --------------------------- header > nav > logo */
@@ -48,36 +48,49 @@ body {}
     /* background-color: sandybrown; */
     display:flex; flex-flow: row nowrap;
 }
-#wrap header nav #gnb li {
-    height: 63px; padding: 0 29px;
+#wrap header nav #gnb > li {
+    padding: 0 29px;
 }
-#wrap header nav #gnb li > a {
+#wrap header nav #gnb > li > a {
+    background-color: blue;
     display: flex; flex-flow: row nowrap; align-items: center;
     color: #001e63; font-weight: 700;
-    height: 100%; 
+    height: 63px; 
 }
-#wrap header nav #gnb li .menu_all {
-    /* display: none; */
+#wrap header nav #gnb > li .menu_all {
+    display: none;
+    position: absolute; top: 63px; left: 0;
+    padding-left:215px;
     background-color: aquamarine;
-    position: absolute; top:63px; left: 0;
 }
-#wrap header nav #gnb li .menu_all * {color: #001e63;}
-#wrap header nav #gnb li .menu_all .gnb_depth2 {
-    transform: translateX(100px);
+#wrap header nav #gnb > li .active {
+    background-color: paleturquoise;
+    width: 100%; display: block;
 }
-#wrap header nav #gnb li .menu_all .gnb_depth2 li {}
-#wrap header nav #gnb li .menu_all .gnb_depth2 li > a {}
-#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 {display: none;}
-#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 li {}
-#wrap header nav #gnb li .menu_all .gnb_depth2 li .gnb_depth3 li a {}
-#wrap header nav #gnb li .menu_all .gnb_depth2 .gnb_depth3 {}/* gnb-sports */
-#wrap header nav #gnb li .menu_all .gnb_depth2 .gnb_depth3 a {}
+#wrap header nav #gnb > li .menu_all * {color: #001e63;}/* gnb depth들 글자색상 */
+#wrap header nav #gnb > li .menu_all .gnb_depth2 {
+    display: flex; flex-flow: row nowrap;
+}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 > li {
+    border: 1px solid red;
+    width: 200px;
+}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 > li > a {
+    /* background-color: lightcoral; */
+    font-size: 0.88rem; font-weight: 700;
+}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 > li .gnb_depth3 {/* display: none; */}
+#wrap header nav #gnb > li .menu_all .active > li .gnb_depth3 {}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 > li .gnb_depth3 li {}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 > li .gnb_depth3 li a {}
+#wrap header nav #gnb > li .menu_all .gnb_depth2 .gnb_depth3 {display: none;}/* gnb-sports */
+#wrap header nav #gnb > li .menu_all .gnb_depth2 .gnb_depth3 a {}
 /* --------------------------- header > nav > ad_box */
-#wrap header nav #gnb li .menu_all .ad_box {display: none;}
-#wrap header nav #gnb li .menu_all .ad_box a {}
-#wrap header nav #gnb li .menu_all .ad_box a img {}
-#wrap header nav #gnb li .menu_all .ad_box a em {}
-#wrap header nav #gnb li .menu_all .ad_box a em sup {}
+#wrap header nav #gnb > li .menu_all .ad_box {display: none;}
+#wrap header nav #gnb > li .menu_all .ad_box a {}
+#wrap header nav #gnb > li .menu_all .ad_box a img {}
+#wrap header nav #gnb > li .menu_all .ad_box a em {}
+#wrap header nav #gnb > li .menu_all .ad_box a em sup {}
 /* --------------------------- header > .lnb_right */
 #wrap header .lnb_right {
     /* background-color: lightcoral; */
