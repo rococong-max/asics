@@ -63,7 +63,15 @@
 ### 2026/03/06
 * Noto Sans KR 웹글꼴 등록
 * gnb 펼쳐지는 메뉴 css 작업중
-    * depth1== a태그에 `class="active"` 부여
+    * depth1== a태그에 `class="active"` 부여, css 수정
+### 2026/03/11
+* depth1== a태그에 `class="active"` 부여 취소
+    -> li에 hover했을 때 menu_all이 보이도록 (display:bolck)
+* gnb depth 기본 레이아웃 완성
+* 다른 레이아웃을 가진 depth 레이아웃 수정
+    * run 완료
+    * sprots 수정 중
+* depth 안 before 수정 필요
 ## 피드백 내용 정리
 ### 2026/02/10 (1차)
 * 띠배너
